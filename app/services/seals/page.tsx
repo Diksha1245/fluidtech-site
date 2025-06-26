@@ -130,12 +130,12 @@ export default function SealSection() {
             Contact our specialists today to discuss your requirements and get a custom quote
             tailored to your industrial needs.
           </p>
-          <a
+          <Link
             href="/contact"
             className="inline-block bg-red-700 text-white text-lg font-semibold px-8 py-3 rounded shadow hover:bg-red-800 transition"
           >
             Get in Touch
-          </a>
+          </Link>
         </section>
       </section>
     </main>

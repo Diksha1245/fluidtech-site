@@ -102,12 +102,12 @@ export default function DetailedServices() {
         <div className="mt-16 text-center">
           <h3 className="text-xl font-semibold text-gray-800 mb-2">Need a Custom Hydraulic Solution?</h3>
           <p className="text-gray-600 mb-4">We’re here to support your toughest industrial challenges.</p>
-          <a
+          <Link
             href="/contact"
             className="inline-block bg-red-700 text-white px-6 py-2 rounded hover:bg-red-800 transition"
           >
             Contact Us Now
-          </a>
+          </Link>
         </div>
       </section>
     </main>

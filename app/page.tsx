@@ -351,13 +351,13 @@ export default function Home() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-4">Need a Custom Hydraulic or Pneumatic Solution?</h2>
           <p className="text-lg mb-6">
-            From design to on-site service, we're ready to support your most demanding needs.
+            From design to on-site service, we&apos;re ready to support your most demanding needs.
           </p>
-          <a href="/contact">
+          <Link href="/contact">
             <button className="bg-white text-red-700 px-6 py-3 font-semibold rounded hover:bg-red-100 transition">
               Get in Touch Today
             </button>
-          </a>
+          </Link>
         </div>
       </section>
     </main>

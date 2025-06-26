@@ -24,7 +24,7 @@ export default function ContactSection() {
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-red-700 text-center mb-6">Contact Us</h2>
         <p className="text-center text-gray-600 mb-12 text-lg">
-          We'd love to hear from you. Fill out the form and we’ll be in touch!
+          We&apos;d love to hear from you. Fill out the form and we&apos;ll be in touch!
         </p>
 
         <form onSubmit={sendEmail} className="grid grid-cols-1 md:grid-cols-2 gap-10">
