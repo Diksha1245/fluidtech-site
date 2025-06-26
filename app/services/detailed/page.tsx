@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { FaCog, FaWrench, FaTruck, FaTools, FaWater, FaShieldAlt, FaBolt, FaPhoneAlt, FaCogs, FaDatabase, FaHeadset, FaCubes } from 'react-icons/fa';
-
+import Link from 'next/link';
 const services = [
   {
     icon: <FaCog className="text-red-600 w-6 h-6" />,
@@ -101,12 +101,13 @@ export default function DetailedServices() {
         {/* Contact Prompt */}
         <div className="mt-16 text-center">
           <h3 className="text-xl font-semibold text-gray-800 mb-2">Need a Custom Hydraulic Solution?</h3>
-          <p className="text-gray-600 mb-4">We’re here to support your toughest industrial challenges.</p>
+          <p className="text-gray-600 mb-4">We&apos; here to support your toughest industrial challenges.</p>
           <Link
-            href="/contact"
-            className="inline-block bg-red-700 text-white px-6 py-2 rounded hover:bg-red-800 transition"
-          >
+            href="/contact">
+           <p className="inline-block bg-red-700 text-white px-6 py-2 rounded hover:bg-red-800 transition">
+          
             Contact Us Now
+            </p> 
           </Link>
         </div>
       </section>

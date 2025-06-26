@@ -7,7 +7,7 @@ export default function HydraulicPartsService() {
 
       <p className="mb-8 text-lg leading-relaxed max-w-4xl">
         FluidTech Hydraulics now offers a full line of hydraulic components, in addition to our hydraulic service business.  
-        Let us help you with your pump, valve, motor, or cylinder. We also offer cylinder repairs. Call or bring us your cylinder and we'll give you a quote.  
+        Let us help you with your pump, valve, motor, or cylinder. We also offer cylinder repairs. Call or bring us your cylinder and we&apos;ll give you a quote.  
         As always, we appreciate the opportunity to earn your business.
       </p>
 

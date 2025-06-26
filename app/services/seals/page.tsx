@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { FaBox, FaCogs, FaTools, FaShieldAlt, FaIndustry, FaShippingFast, FaHandsHelping } from 'react-icons/fa';
-
+import Link from 'next/link';
 const seals = [
   {
     icon: <FaBox className="text-red-600 w-7 h-7" />,
@@ -131,10 +131,11 @@ export default function SealSection() {
             tailored to your industrial needs.
           </p>
           <Link
-            href="/contact"
-            className="inline-block bg-red-700 text-white text-lg font-semibold px-8 py-3 rounded shadow hover:bg-red-800 transition"
-          >
+            href="/contact">
+            <p className="inline-block bg-red-700 text-white text-lg font-semibold px-8 py-3 rounded shadow hover:bg-red-800 transition">
+          
             Get in Touch
+            </p>
           </Link>
         </section>
       </section>
